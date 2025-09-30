@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #999999;
+        }
+
+        .top_div {
+            width: 100%;
+            display: flex;
+        }
+
+        .close {
+            display: inline-flex;
+            padding-top: 10px;
+            padding-left: 10px;
+            justify-self: start;
+            position: absolute;
+        }
+
+        .im {
+            display: inline-flex;
+            width: 100%;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .im img {
+
+            padding-top: 10px;
+            width: 80px;
+
+        }
+
+        .main {
+            margin: 100px;
+            background-color: rgb(247, 247, 247);
+            border-radius: 26px;
+            justify-items: center;
+        }
+
+        .title_div h6 {
+            text-align: center;
+            font-size: 30px;
+            margin: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .sign_div {
+            padding: 30px;
+
+        }
+
+        .google_div,
+        .apple_div {
+            padding: 15px;
+        }
+
+        .sign {
+            display: inline-flex;
+            width: 300px;
+            height: 40px;
+            border: 1px;
+
+            padding-right: 30px;
+            border-color: rgb(166, 171, 173);
+            justify-content: center;
+
+            border-style: solid;
+            border-radius: 50px;
+        }
+
+        .sign1 {
+            display: inline-flex;
+            width: 300px;
+            height: 40px;
+
+            border: 1px;
+
+            border-color: rgb(166, 171, 173);
+            justify-content: center;
+
+            border-style: solid;
+            border-radius: 50px;
+        }
+        .up_div h6{
+            text-align: center;
+        }
+
+        .email_div input {
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+         .next_div input {
+            width: 100%;
+            border-radius: 50px;
+            text-align: center;
+            background-color: black;
+            color: #ffffff;
+
+        }
+
+        .email_div,
+        .next_div {
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .sign {
+            display: inline-flex;
+            width: 300px;
+            height: 40px;
+            border: 1px;
+
+            padding-right: 30px;
+            border-color: rgb(166, 171, 173);
+            justify-content: center;
+
+            border-style: solid;
+            border-radius: 50px;
+        }
+
+        .sign img {
+            width: 40px;
+            height: 40px;
+
+        }
+
+        .sign h6 {
+            font-size: 17px;
+            height: 40px;
+            padding-top: 10px;
+            margin: 0;
+            color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="top_div">
+            <div class="close"><span>X</span></div>
+            <div class="im"><img src="./Screenshot 2023-07-12 at 17.36.57.png" alt=""></div>
+        </div>
+        <div class="sign_div">
+            <div class="title_div">
+                <h6>Sign in to Twitter</h6>
+            </div>
+            <div class="google_div">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <div class="sign">
+                        <img src="./Screenshot 2023-07-12 at 17.37.15.png" alt="">
+                        <h6>Sign in with Google</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="apple_div">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <div class="sign">
+                        <img src="./Screenshot 2023-07-12 at 17.37.24.png" alt="">
+                        <h6>Sign in with Apple</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="title_div">
+                <h6>or</h6>
+            </div>
+            <div class="email_div">
+                <div class="sign1">
+                    <input type="text" name="email">
+                </div>
+            </div>
+
+            <div class="next_div">
+                <div class="sign1">
+                    <input type="submit" value="Next" name="email">
+                </div>
+            </div>
+            <div class="apple_div">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <div class="sign">
+
+                        <h6>Forgot password?</h6>
+                    </div>
+                </a>
+            </div>
+              <div class="up_div">
+                <h6>Don't have an account?<a href="#">Sign up</a></h6>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
